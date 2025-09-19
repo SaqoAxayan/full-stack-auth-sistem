@@ -1,0 +1,26 @@
+# -------- Common --------
+node_modules
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------- Environment files --------
+.env
+.env.local
+.env.*.local
+
+# -------- Client --------
+client/node_modules
+client/build
+client/.pnp
+client/.pnp.js
+client/coverage
+
+# -------- Server --------
+server/node_modules
+server/dist
+server/coverage
+server/*.log
+
+server/*.db
