@@ -1,0 +1,52 @@
+.container {
+  background-color: #f5f0e6; /* բաց շագանակագույն ֆոն */
+  width: 100%;
+  border-radius: 12px;
+  padding: 100px 20px;
+  box-shadow: 0 4px 10px rgba(90, 60, 40, 0.3);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container  input {
+  padding: 10px 14px;
+  border: 1px solid #a47551;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.container  input:focus {
+  border-color: #8b5e3c;
+  box-shadow: 0 0 6px rgba(139, 94, 60, 0.4);
+}
+
+.container button {
+  background-color: #8b5e3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.container button:hover {
+  background-color: #a47551;
+}
+
+.deleteAll {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.searchTodo {
+  width: 100%;
+  margin-top: 2%;
+}

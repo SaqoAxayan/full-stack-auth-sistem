@@ -1,0 +1,8 @@
+.card {
+  width: 100%;
+  padding: 10px 20px;
+  border: solid;
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
