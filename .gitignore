@@ -11,11 +11,11 @@ yarn-error.log*
 .env.*.local
 
 # -------- Client --------
-front-end/node_modules
-front-end/build
-front-end/.pnp
-front-end/.pnp.js
-front-end/coverage
+client/node_modules
+client/build
+client/.pnp
+client/.pnp.js
+client/coverage
 
 # -------- Server --------
 server/node_modules
